@@ -17,6 +17,11 @@
             <name>project</name>
             <url>file:${project.basedir}${file.separator}repo</url>
         </pluginRepository>
+        <pluginRepository>
+            <id>alimaven</id>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        </pluginRepository>
     </pluginRepositories>
 
     <build>
